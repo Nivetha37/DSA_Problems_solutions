@@ -14,7 +14,7 @@ while i <= n:
 
 
 Explanation:
-
+ANSWER: sqrt(n)
 
 * Time complexity of the 1st loop is O(sqrt(n)).
 * Time complexity of the 2nd loop is O(log(n)).
