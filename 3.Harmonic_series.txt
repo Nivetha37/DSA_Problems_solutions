@@ -1,0 +1,21 @@
+﻿What is the time complexity of this code?
+
+
+for i = 1 to n
+    j = 0
+    while j < n:
+        j += i 
+        print(i + j)
+
+
+Explanation:
+
+
+ANSWER: O(n*log(n))
+* The outer loop runs n times i.e O(n) time complexity.
+* The inner loop runs from 1 to the sum of numbers from 1 to n.
+*  for the first iteration, the inner while loop runs n/1 times.
+*  for the second iteration , the inner while loop runs n/2 times.
+* it continues till the loop ends..
+This series resembles the harmonic series, which sums to approximately O(log(n)).
+Hence, the overall time complexity of the code is  O(n*log(n)).
